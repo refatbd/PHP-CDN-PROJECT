@@ -17,6 +17,7 @@ It is designed to be managed using Tiny File Manager (TFM), which can be easily 
 ## File Structure
 Here is the recommended file structure for the complete project:
 
+<pre>
 /
 ├── .htaccess           # <-- Apache routing and security rules
 ├── index.php           # <-- The main project landing page
@@ -31,6 +32,8 @@ Here is the recommended file structure for the complete project:
 │   └── ...
 │
 └── hash_generator.php  # <-- (Temporary) Tool to create passwords
+</pre>
+
 
 ## Step-by-Step Configuration
 Follow these steps to set up the complete project.
@@ -103,4 +106,5 @@ With this setup, your server will behave as follows:
     * All conditions are met, and the request is rewritten to `404.php`.
 	
 	
+
 	
